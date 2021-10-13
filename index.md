@@ -13,3 +13,4 @@
 2. CRTP
 3. PaCSP
 4. Certified Ethical Hacker (Practical)
+5. Comptia Security+
