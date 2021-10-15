@@ -16,3 +16,4 @@
   - `Get-ChildItem | Where-Object {$_.Name -eq "windows"}`
   - `Get-ChildItem | Where-Object -Property PropertyName -eq "windows"`
 6. Sorting `Get-ChildItem | select Name | Sort-Object`
+7. Count number of lines `Get-Command`
