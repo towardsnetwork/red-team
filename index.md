@@ -16,4 +16,5 @@
 5. Comptia Security+
 
 ### Tools
-password spraying against Office 365 and Exchange are [MailSniper](https://github.com/dafthack/MailSniper) and [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit)
+- Password spraying against Office 365 and Exchange - [MailSniper](https://github.com/dafthack/MailSniper) and [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit)
+- Check for email spoofing proetctions with [spoofcheck.py](https://github.com/BishopFox/spoofcheck) - ./spoofcheck.py org.com
