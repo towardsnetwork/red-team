@@ -6,3 +6,6 @@
 
 ### Email
 - ./spoofcheck.py org.com
+
+### Web OSINT
+Google dorks [GHDB](https://www.exploit-db.com/google-hacking-database)
