@@ -3,6 +3,7 @@
 
 ### Cheatsheets
 - Windows Privilege escalations
+- Windows post exploitation
 - Linux Privilege escalations
 - Enumeration cheatsheet
 - Web application penetration testing cheatsheet
