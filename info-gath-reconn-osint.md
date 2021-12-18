@@ -1,3 +1,4 @@
+# Information Gathering | Reconnaissance | OSINT
 # External Reconnaissance
 ### DNS Records
 - dig dev.website.io
