@@ -5,7 +5,7 @@
 - Windows Privilege escalations and post exploitation
 - Linux Privilege escalations and post exploitation
 - Information Gathering, reconnaissance and OSINT
-- Enumeration cheatsheet
+- Ports enumeration cheatsheet
 - Web application penetration testing cheatsheet
 - Active Directory enum/pentest
 
