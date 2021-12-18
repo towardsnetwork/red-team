@@ -2,9 +2,9 @@
 ## The Offensive guide
 
 ### Cheatsheets
-- Windows Privilege escalations
-- Windows post exploitation
-- Linux Privilege escalations
+- Windows Privilege escalations and post exploitation
+- Linux Privilege escalations and post exploitation
+- Information Gathering, reconnaissance and OSINT
 - Enumeration cheatsheet
 - Web application penetration testing cheatsheet
 - Active Directory enum/pentest
