@@ -3,6 +3,7 @@
 ### DNS Records
 - dig dev.website.io
 - whois 10.10.10.10
+- nslookup domain.com
 - subdomain enum with [dnscan](https://github.com/rbsec/dnscan)
 
 ### Email
