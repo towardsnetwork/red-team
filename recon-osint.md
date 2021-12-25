@@ -17,7 +17,7 @@
 -
 
 ### Email
-- Check email protections ./spoofcheck.py org.com
+- Check email protections [./spoofcheck.py](https://github.com/BishopFox/spoofcheck) org.com
 
 ### Web OSINT
 Google dorks [GHDB](https://www.exploit-db.com/google-hacking-database)
