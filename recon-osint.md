@@ -8,6 +8,10 @@
 - subdomain enum with [dnscan](https://github.com/rbsec/dnscan), [dnsrecon](https://github.com/darkoperator/dnsrecon)
 - Zone transfer `dig @nameserver axfr domain.com`
 
+### Tools
+- [Shodan](https://www.shodan.io)
+- Public S3 buckets/Blobs - []()
+
 # Active Reconnaissance
 - whatweb ip
 -
