@@ -1,5 +1,5 @@
 # Information Gathering | Reconnaissance | OSINT
-# External Reconnaissance
+# Passive Reconnaissance
 ### DNS Records
 - dig dev.website.io
 - whois 10.10.10.10
@@ -7,8 +7,12 @@
 - [Netcraft](https://searchdns.netcraft.com)
 - subdomain enum with [dnscan](https://github.com/rbsec/dnscan)
 
+# Active Reconnaissance
+- whatweb ip
+-
+
 ### Email
-- ./spoofcheck.py org.com
+- Check email protections ./spoofcheck.py org.com
 
 ### Web OSINT
 Google dorks [GHDB](https://www.exploit-db.com/google-hacking-database)
