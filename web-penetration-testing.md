@@ -4,3 +4,18 @@
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [OWASP testing guide](https://owasp.org/www-project-web-security-testing-guide/)
 - [The WASC Threat Classification v2.0](http://projects.webappsec.org/w/page/13246978/Threat%20Classification)
+
+- Inspect headers using -v(verbose output) `curl -v IP` 
+
+### Checks
+1. Client side validation
+2. Database interaction
+3. File upload/download
+4. Display of user input
+5. Redirections
+6. Access control and Login protected pages
+7. Error messages - Status codes (404,403,5xx)
+
+### Extensions and Files
+- `bak, bac, old, 000, 001, ~, 01, _bak, inc, Xxx`
+- `.git, .htaccess`
