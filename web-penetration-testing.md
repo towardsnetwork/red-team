@@ -5,7 +5,8 @@
 - [OWASP testing guide](https://owasp.org/www-project-web-security-testing-guide/)
 - [The WASC Threat Classification v2.0](http://projects.webappsec.org/w/page/13246978/Threat%20Classification)
 
-- Inspect headers using -v(verbose output) `curl -v IP` 
+- `curl -v IP` Inspect headers using -v(verbose output)
+- `curl -X OPTIONS Domain.com -i` Check if PUT, DELETE, MOVE are accepted
 
 ### Checks
 1. Client side validation
@@ -19,3 +20,4 @@
 ### Extensions and Files
 - `bak, bac, old, 000, 001, ~, 01, _bak, inc, Xxx`
 - Files: `.git, .htaccess, robots.txt`
+- 
