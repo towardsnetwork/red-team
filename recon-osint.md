@@ -6,6 +6,7 @@
 - nslookup domain.com
 - [Netcraft](https://searchdns.netcraft.com)
 - subdomain enum with [dnscan](https://github.com/rbsec/dnscan), [dnsrecon](https://github.com/darkoperator/dnsrecon)
+- Zone transfer `dig @nameserver axfr domain.com`
 
 # Active Reconnaissance
 - whatweb ip
