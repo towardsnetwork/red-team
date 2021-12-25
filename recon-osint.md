@@ -4,6 +4,7 @@
 - dig dev.website.io
 - whois 10.10.10.10
 - nslookup domain.com
+- [Netcraft](https://searchdns.netcraft.com)
 - subdomain enum with [dnscan](https://github.com/rbsec/dnscan)
 
 ### Email
