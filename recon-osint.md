@@ -5,7 +5,7 @@
 - whois 10.10.10.10
 - nslookup domain.com
 - [Netcraft](https://searchdns.netcraft.com)
-- subdomain enum with [dnscan](https://github.com/rbsec/dnscan)
+- subdomain enum with [dnscan](https://github.com/rbsec/dnscan), [dnsrecon](https://github.com/darkoperator/dnsrecon)
 
 # Active Reconnaissance
 - whatweb ip
