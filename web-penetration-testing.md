@@ -18,4 +18,4 @@
 
 ### Extensions and Files
 - `bak, bac, old, 000, 001, ~, 01, _bak, inc, Xxx`
-- `.git, .htaccess`
+- Files: `.git, .htaccess, robots.txt`
