@@ -20,4 +20,8 @@
 ### Extensions and Files
 - `bak, bac, old, 000, 001, ~, 01, _bak, inc, Xxx`
 - Files: `.git, .htaccess, robots.txt`
-- 
+
+### XSS
+### SQLi
+- [https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
+- Sqlmap `sqlmap -u "http://ip/sqli_1.php?title=hello&action=search" --cookie "PHPSESSID=m42ba6etbktfktvjadijnsaqg4; security_level=0" -p title`
