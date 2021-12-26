@@ -40,3 +40,5 @@ If ( $ExecutionContext.SessionState.LanguageMode -eq "ConstrainedLanguage") {
 
 }
 ```
+- UAC Bypass
+1. fodhelper.exe `C:\Windows\System32\fodhelper.exe`
