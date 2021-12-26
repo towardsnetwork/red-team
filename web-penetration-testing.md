@@ -24,6 +24,10 @@
 ### XSS
 ### SQLi
 - [https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
+- SQL statements
+  - SELECT <col> FROM <table> WHERE <condiation>;
+  - <SELECT statement> UNION <another SELECT statement>
+  - SELETC user()
 - Sqlmap
   - GET `sqlmap -u "http://ip/sqli_1.php?title=hello&action=search" --cookie "PHPSESSID=m42ba6etbktfktvjadijnsaqg4; security_level=0" -p title`
   - POST `sqlmap -r request.txt -p title`
