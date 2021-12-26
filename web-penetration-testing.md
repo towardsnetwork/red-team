@@ -24,6 +24,7 @@
 ### XSS
 ### SQLi
 - [https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
+- [Ippsec SQLi Jarvis box](https://www.youtube.com/watch?v=YHHWvXBfwQ8&t=310s)
 - SQL statements
   - SELECT <col> FROM <table> WHERE <condiation>;
   - <SELECT statement> UNION <another SELECT statement>
