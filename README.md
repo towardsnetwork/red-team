@@ -19,3 +19,6 @@
 ### Tools
 - Password spraying against Office 365 and Exchange - [MailSniper](https://github.com/dafthack/MailSniper) and [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit)
 - Check for email spoofing proetctions with [spoofcheck.py](https://github.com/BishopFox/spoofcheck) - ./spoofcheck.py org.com
+
+### Useful tips
+- With xfreerdp, I use /u: /p: and /d: and just adding /gt:rpc to the command line results in a successful connection.
