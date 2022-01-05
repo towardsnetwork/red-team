@@ -21,4 +21,4 @@
 - Check for email spoofing proetctions with [spoofcheck.py](https://github.com/BishopFox/spoofcheck) - ./spoofcheck.py org.com
 
 ### Useful tips
-- With xfreerdp, I use /u: /p: and /d: and just adding /gt:rpc to the command line results in a successful connection.
+- With xfreerdp, use /u: /p: and /d: and add /gt:rpc to the command line results in a successful connection.
